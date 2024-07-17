@@ -17,6 +17,9 @@ jobs:
         with:
           node-version-file: package.json
           cache: pnpm
+      - name: Install dependencies
+        run: |
+          pnpm i --frozen-lockfile
       - name: Check
         run: |
           pnpm biome check .
