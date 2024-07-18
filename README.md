@@ -33,16 +33,10 @@ Windows非対応でもWSLでは動くので、もしWindows対応で使えるも
 | n             | No                     | ?                           | ?                   | ?                                   |
 
 ## 本リポジトリの達成目標
-- [ ] Voltaで初期環境構築を行なう
-- [ ] Cloudflare Pagesにアップロード
-- [ ] fnmで環境再構築を行なう
-
-### セットアップ方法
-#### Volta
-#### fnm
-#### nodenv
-#### nvm
-#### n
+- [x] Voltaで初期環境構築を行なう
+- [x] Cloudflare Pagesにアップロード
+- [x] fnmで環境再構築を行なう
+- [ ] Voltaでの環境構築を前提に、CIで.node-versionと現行バージョンの確認を行なう
 
 ## 参考資料
 - 特になし
