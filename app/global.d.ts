@@ -5,10 +5,6 @@ type Head = {
 };
 
 declare module "hono" {
-  interface Env {
-    Variables: {};
-    Bindings: {};
-  }
   type ContextRenderer = (
     content: string | Promise<string>,
     head?: Head,
