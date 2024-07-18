@@ -22,4 +22,4 @@ jobs:
           pnpm i --frozen-lockfile
       - name: Check
         run: |
-          pnpm biome check .
+          pnpm check
